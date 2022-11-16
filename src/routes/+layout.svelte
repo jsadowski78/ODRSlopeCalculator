@@ -12,10 +12,10 @@
     <svelte:fragment slot="header">
 		<AppBar>
 			<svelte:fragment slot="lead">
-				<h1>Skeleton</h1>
+				<h1>Svelte+Tailwind+Skeleton</h1>
 			</svelte:fragment>
 			<svelte:fragment slot="trail">
-				<a class="btn btn-sm" href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a>
+				<a class="btn btn-sm" href="https://github.com/jsadowski78/ODRSlopeCalculator" target="_blank" rel="noreferrer">GitHub</a>
 			</svelte:fragment>
 		</AppBar>
 	</svelte:fragment>
