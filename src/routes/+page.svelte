@@ -25,12 +25,12 @@
     }
 </script>
 
-<div class="container mx-auto p-8 space-y-8">
+<div class="container mx-auto p-2 md:p-8 md:space-y-8 space-y-2">
 	<GradientHeading tag="h1" direction="bg-gradient-to-br" from="from-primary-500" to="to-accent-500">
         ODR Slope Calculator
     </GradientHeading>
 
-	<div id="PlotPoints" class="container mx-auto grid grid-cols-6 gap-4">
+	<div id="PlotPoints" class="container mx-auto grid grid-cols-6 md:gap-4 gap-2">
         {#each points as point}
             <Card bind:pointValue={point} bind:base={startingPoint} on:message={handleMessage}/>
         {/each}
