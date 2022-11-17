@@ -21,7 +21,7 @@
     <header class={"card-header rounded-xl h-14 " + (slope>=0 ? (slope>10 ? (slope>12.5 ? 'bg-warning-500' : 'bg-tertiary-500') : 'bg-primary-500') : 'bg-surface-500/20')}>
         <div class="text-center text-xl ">
             <span class={(slope>12.5 ? '': 'hidden')}>💀</span>
-            {slope}
+            {(slope >= 0 ? '+' + slope : slope)}"
         </div>
     </header>
     
